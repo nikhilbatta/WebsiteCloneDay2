@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 
 function TopNav(){
   return (
-    <div className="top-nav">
+    <div  className="top-nav" >
       <style jsx>{`
       .deviant-logo {
         max-height: 50px;
@@ -18,13 +18,12 @@ function TopNav(){
       }
       `}</style>
       <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet' type='text/css'></link>
-      <Navbar collapseOnSelect expand="lg" variant="dark">
+      <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#home"><img className="deviant-logo" src="https://www.underconsideration.com/brandnew/archives/deviantart_logo_detail.png"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Browse</Nav.Link>
-      
+            <Nav.Link color="white" href="#browse">Browse</Nav.Link>
             <NavDropdown title="More" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Shop</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Groups</NavDropdown.Item>
