@@ -33,7 +33,7 @@ function TopNav(){
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Join</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#sign_in">
        Sign In
             </Nav.Link>
             <Nav.Link className="fa fa-user fa-2x" href="#user"></Nav.Link>
