@@ -7,8 +7,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 function App(){
+  var bodybackground = {
+    backgroundColor: 'black'
+  };
   return (
-    <div>
+    <div style={bodybackground}>
       <TopNav/>
       <Switch>
         <Route exact path='/browse' component={Browse} />

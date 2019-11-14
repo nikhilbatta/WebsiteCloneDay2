@@ -14,7 +14,7 @@ function TopNav(){
       }
 
       .top-nav {
-        background-color: black;
+        background-color: black
       }
       `}</style>
       <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet' type='text/css'></link>
